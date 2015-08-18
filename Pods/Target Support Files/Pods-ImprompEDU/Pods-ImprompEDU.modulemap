@@ -1,0 +1,6 @@
+framework module Pods_ImprompEDU {
+  umbrella header "Pods-ImprompEDU-umbrella.h"
+
+  export *
+  module * { export * }
+}

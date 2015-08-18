@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DB7548901C84D592A184103 /* Pods_ImprompEDU.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E605618956884F70519E470D /* Pods_ImprompEDU.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		410AB31F1B7691B900FA02D9 /* SessionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410AB31E1B7691B900FA02D9 /* SessionTableViewCell.swift */; };
+		412EAD6D1B7667AD004AE238 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412EAD6C1B7667AD004AE238 /* AppDelegate.swift */; };
+		412EAD6F1B7667AD004AE238 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412EAD6E1B7667AD004AE238 /* ViewController.swift */; };
+		412EAD721B7667AD004AE238 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 412EAD701B7667AD004AE238 /* Main.storyboard */; };
+		412EAD741B7667AD004AE238 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 412EAD731B7667AD004AE238 /* Images.xcassets */; };
+		412EAD771B7667AD004AE238 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 412EAD751B7667AD004AE238 /* LaunchScreen.xib */; };
+		412EAD831B7667AD004AE238 /* ImprompEDUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412EAD821B7667AD004AE238 /* ImprompEDUTests.swift */; };
+		412EAD8F1B766BE0004AE238 /* SessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412EAD8E1B766BE0004AE238 /* SessionViewController.swift */; };
+		412EAD911B766C9A004AE238 /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412EAD901B766C9A004AE238 /* CreateGroupViewController.swift */; };
+		416E37B01B769654006E9CE9 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E37AF1B769654006E9CE9 /* Session.swift */; };
+		416E37B21B769ECF006E9CE9 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E37B11B769ECF006E9CE9 /* LogInViewController.swift */; };
+		416E37B41B76CD7D006E9CE9 /* CreateUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416E37B31B76CD7D006E9CE9 /* CreateUserViewController.swift */; };
+		416E37BE1B76DA60006E9CE9 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 416E37B61B76DA60006E9CE9 /* en.lproj */; };
+		416E37BF1B76DA60006E9CE9 /* Firechat-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 416E37B71B76DA60006E9CE9 /* Firechat-Info.plist */; };
+		416E37C11B76DA60006E9CE9 /* SessionDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 416E37BB1B76DA60006E9CE9 /* SessionDetailViewController.m */; };
+		416E37C21B76DA60006E9CE9 /* UITouchTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 416E37BD1B76DA60006E9CE9 /* UITouchTableView.m */; };
+		416E37C71B76E377006E9CE9 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 416E37C61B76E377006E9CE9 /* Session.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		412EAD7D1B7667AD004AE238 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 412EAD5F1B7667AD004AE238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 412EAD661B7667AD004AE238;
+			remoteInfo = ImprompEDU;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39257AC65BC7F7B361141CDF /* Pods-ImprompEDU.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImprompEDU.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImprompEDU/Pods-ImprompEDU.release.xcconfig"; sourceTree = "<group>"; };
+		410AB31E1B7691B900FA02D9 /* SessionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionTableViewCell.swift; sourceTree = "<group>"; };
+		412EAD671B7667AD004AE238 /* ImprompEDU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImprompEDU.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		412EAD6B1B7667AD004AE238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		412EAD6C1B7667AD004AE238 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		412EAD6E1B7667AD004AE238 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		412EAD711B7667AD004AE238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		412EAD731B7667AD004AE238 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		412EAD761B7667AD004AE238 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		412EAD7C1B7667AD004AE238 /* ImprompEDUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImprompEDUTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		412EAD811B7667AD004AE238 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		412EAD821B7667AD004AE238 /* ImprompEDUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImprompEDUTests.swift; sourceTree = "<group>"; };
+		412EAD8E1B766BE0004AE238 /* SessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionViewController.swift; sourceTree = "<group>"; };
+		412EAD901B766C9A004AE238 /* CreateGroupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
+		416E37AF1B769654006E9CE9 /* Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		416E37B11B769ECF006E9CE9 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		416E37B31B76CD7D006E9CE9 /* CreateUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUserViewController.swift; sourceTree = "<group>"; };
+		416E37B51B76DA5F006E9CE9 /* ImprompEDU-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImprompEDU-Bridging-Header.h"; sourceTree = "<group>"; };
+		416E37B61B76DA60006E9CE9 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		416E37B71B76DA60006E9CE9 /* Firechat-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Firechat-Info.plist"; sourceTree = "<group>"; };
+		416E37B81B76DA60006E9CE9 /* Firechat-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Firechat-Prefix.pch"; sourceTree = "<group>"; };
+		416E37BA1B76DA60006E9CE9 /* SessionDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SessionDetailViewController.h; sourceTree = "<group>"; };
+		416E37BB1B76DA60006E9CE9 /* SessionDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SessionDetailViewController.m; sourceTree = "<group>"; };
+		416E37BC1B76DA60006E9CE9 /* UITouchTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITouchTableView.h; sourceTree = "<group>"; };
+		416E37BD1B76DA60006E9CE9 /* UITouchTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITouchTableView.m; sourceTree = "<group>"; };
+		416E37C51B76E377006E9CE9 /* Session.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		416E37C61B76E377006E9CE9 /* Session.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
+		81E5BED6FAE9BA37C392691B /* Pods-ImprompEDU.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImprompEDU.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImprompEDU/Pods-ImprompEDU.debug.xcconfig"; sourceTree = "<group>"; };
+		E605618956884F70519E470D /* Pods_ImprompEDU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImprompEDU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		412EAD641B7667AD004AE238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB7548901C84D592A184103 /* Pods_ImprompEDU.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412EAD791B7667AD004AE238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		312E7C6ED7FE51913CCE77F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81E5BED6FAE9BA37C392691B /* Pods-ImprompEDU.debug.xcconfig */,
+				39257AC65BC7F7B361141CDF /* Pods-ImprompEDU.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		412EAD5E1B7667AD004AE238 = {
+			isa = PBXGroup;
+			children = (
+				412EAD691B7667AD004AE238 /* ImprompEDU */,
+				412EAD7F1B7667AD004AE238 /* ImprompEDUTests */,
+				412EAD681B7667AD004AE238 /* Products */,
+				312E7C6ED7FE51913CCE77F6 /* Pods */,
+				4C25DCD3E97BFB0E400F65E2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		412EAD681B7667AD004AE238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				412EAD671B7667AD004AE238 /* ImprompEDU.app */,
+				412EAD7C1B7667AD004AE238 /* ImprompEDUTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		412EAD691B7667AD004AE238 /* ImprompEDU */ = {
+			isa = PBXGroup;
+			children = (
+				416E37B61B76DA60006E9CE9 /* en.lproj */,
+				416E37B71B76DA60006E9CE9 /* Firechat-Info.plist */,
+				416E37B81B76DA60006E9CE9 /* Firechat-Prefix.pch */,
+				416E37BA1B76DA60006E9CE9 /* SessionDetailViewController.h */,
+				416E37C51B76E377006E9CE9 /* Session.h */,
+				416E37C61B76E377006E9CE9 /* Session.m */,
+				416E37BB1B76DA60006E9CE9 /* SessionDetailViewController.m */,
+				416E37BC1B76DA60006E9CE9 /* UITouchTableView.h */,
+				416E37BD1B76DA60006E9CE9 /* UITouchTableView.m */,
+				412EAD6C1B7667AD004AE238 /* AppDelegate.swift */,
+				412EAD6E1B7667AD004AE238 /* ViewController.swift */,
+				412EAD701B7667AD004AE238 /* Main.storyboard */,
+				416E37B31B76CD7D006E9CE9 /* CreateUserViewController.swift */,
+				416E37B11B769ECF006E9CE9 /* LogInViewController.swift */,
+				410AB31E1B7691B900FA02D9 /* SessionTableViewCell.swift */,
+				412EAD8E1B766BE0004AE238 /* SessionViewController.swift */,
+				416E37AF1B769654006E9CE9 /* Session.swift */,
+				412EAD731B7667AD004AE238 /* Images.xcassets */,
+				412EAD751B7667AD004AE238 /* LaunchScreen.xib */,
+				412EAD6A1B7667AD004AE238 /* Supporting Files */,
+				412EAD901B766C9A004AE238 /* CreateGroupViewController.swift */,
+				416E37B51B76DA5F006E9CE9 /* ImprompEDU-Bridging-Header.h */,
+			);
+			path = ImprompEDU;
+			sourceTree = "<group>";
+		};
+		412EAD6A1B7667AD004AE238 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				412EAD6B1B7667AD004AE238 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		412EAD7F1B7667AD004AE238 /* ImprompEDUTests */ = {
+			isa = PBXGroup;
+			children = (
+				412EAD821B7667AD004AE238 /* ImprompEDUTests.swift */,
+				412EAD801B7667AD004AE238 /* Supporting Files */,
+			);
+			path = ImprompEDUTests;
+			sourceTree = "<group>";
+		};
+		412EAD801B7667AD004AE238 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				412EAD811B7667AD004AE238 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C25DCD3E97BFB0E400F65E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E605618956884F70519E470D /* Pods_ImprompEDU.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		412EAD661B7667AD004AE238 /* ImprompEDU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412EAD861B7667AD004AE238 /* Build configuration list for PBXNativeTarget "ImprompEDU" */;
+			buildPhases = (
+				E2F172C628B136FB14DD4902 /* Check Pods Manifest.lock */,
+				412EAD631B7667AD004AE238 /* Sources */,
+				412EAD641B7667AD004AE238 /* Frameworks */,
+				412EAD651B7667AD004AE238 /* Resources */,
+				A227300310079C55042D5692 /* Embed Pods Frameworks */,
+				4A5C26AFFAEAA231306351F2 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImprompEDU;
+			productName = ImprompEDU;
+			productReference = 412EAD671B7667AD004AE238 /* ImprompEDU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		412EAD7B1B7667AD004AE238 /* ImprompEDUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412EAD891B7667AD004AE238 /* Build configuration list for PBXNativeTarget "ImprompEDUTests" */;
+			buildPhases = (
+				412EAD781B7667AD004AE238 /* Sources */,
+				412EAD791B7667AD004AE238 /* Frameworks */,
+				412EAD7A1B7667AD004AE238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				412EAD7E1B7667AD004AE238 /* PBXTargetDependency */,
+			);
+			name = ImprompEDUTests;
+			productName = ImprompEDUTests;
+			productReference = 412EAD7C1B7667AD004AE238 /* ImprompEDUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		412EAD5F1B7667AD004AE238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = whatever;
+				TargetAttributes = {
+					412EAD661B7667AD004AE238 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					412EAD7B1B7667AD004AE238 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 412EAD661B7667AD004AE238;
+					};
+				};
+			};
+			buildConfigurationList = 412EAD621B7667AD004AE238 /* Build configuration list for PBXProject "ImprompEDU" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 412EAD5E1B7667AD004AE238;
+			productRefGroup = 412EAD681B7667AD004AE238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				412EAD661B7667AD004AE238 /* ImprompEDU */,
+				412EAD7B1B7667AD004AE238 /* ImprompEDUTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		412EAD651B7667AD004AE238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416E37BE1B76DA60006E9CE9 /* en.lproj in Resources */,
+				412EAD721B7667AD004AE238 /* Main.storyboard in Resources */,
+				412EAD771B7667AD004AE238 /* LaunchScreen.xib in Resources */,
+				412EAD741B7667AD004AE238 /* Images.xcassets in Resources */,
+				416E37BF1B76DA60006E9CE9 /* Firechat-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412EAD7A1B7667AD004AE238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A5C26AFFAEAA231306351F2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImprompEDU/Pods-ImprompEDU-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A227300310079C55042D5692 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImprompEDU/Pods-ImprompEDU-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2F172C628B136FB14DD4902 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		412EAD631B7667AD004AE238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				416E37B01B769654006E9CE9 /* Session.swift in Sources */,
+				410AB31F1B7691B900FA02D9 /* SessionTableViewCell.swift in Sources */,
+				416E37C11B76DA60006E9CE9 /* SessionDetailViewController.m in Sources */,
+				412EAD6F1B7667AD004AE238 /* ViewController.swift in Sources */,
+				416E37C71B76E377006E9CE9 /* Session.m in Sources */,
+				416E37C21B76DA60006E9CE9 /* UITouchTableView.m in Sources */,
+				412EAD6D1B7667AD004AE238 /* AppDelegate.swift in Sources */,
+				416E37B21B769ECF006E9CE9 /* LogInViewController.swift in Sources */,
+				416E37B41B76CD7D006E9CE9 /* CreateUserViewController.swift in Sources */,
+				412EAD911B766C9A004AE238 /* CreateGroupViewController.swift in Sources */,
+				412EAD8F1B766BE0004AE238 /* SessionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412EAD781B7667AD004AE238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412EAD831B7667AD004AE238 /* ImprompEDUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		412EAD7E1B7667AD004AE238 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 412EAD661B7667AD004AE238 /* ImprompEDU */;
+			targetProxy = 412EAD7D1B7667AD004AE238 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		412EAD701B7667AD004AE238 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				412EAD711B7667AD004AE238 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		412EAD751B7667AD004AE238 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				412EAD761B7667AD004AE238 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		412EAD841B7667AD004AE238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		412EAD851B7667AD004AE238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		412EAD871B7667AD004AE238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81E5BED6FAE9BA37C392691B /* Pods-ImprompEDU.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ImprompEDU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ImprompEDU/ImprompEDU-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		412EAD881B7667AD004AE238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39257AC65BC7F7B361141CDF /* Pods-ImprompEDU.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = ImprompEDU/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ImprompEDU/ImprompEDU-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		412EAD8A1B7667AD004AE238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImprompEDUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImprompEDU.app/ImprompEDU";
+			};
+			name = Debug;
+		};
+		412EAD8B1B7667AD004AE238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ImprompEDUTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImprompEDU.app/ImprompEDU";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		412EAD621B7667AD004AE238 /* Build configuration list for PBXProject "ImprompEDU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412EAD841B7667AD004AE238 /* Debug */,
+				412EAD851B7667AD004AE238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412EAD861B7667AD004AE238 /* Build configuration list for PBXNativeTarget "ImprompEDU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412EAD871B7667AD004AE238 /* Debug */,
+				412EAD881B7667AD004AE238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412EAD891B7667AD004AE238 /* Build configuration list for PBXNativeTarget "ImprompEDUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412EAD8A1B7667AD004AE238 /* Debug */,
+				412EAD8B1B7667AD004AE238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 412EAD5F1B7667AD004AE238 /* Project object */;
+}
